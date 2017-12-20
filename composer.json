@@ -1,0 +1,32 @@
+{
+    "name": "southernins/racoons",
+    "description": "RAndom Code in One Off Nifty Scripts ( RACOONS )",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Nathan Crews",
+            "email": "ncrews@southerninsurance.net"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "illuminate/console": "~5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SouthernIns\\Laravel\\": "Laravel/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SouthernIns\\Laravel\\RacoonServiceProvider"
+            ]
+        }
+    }
+
+}
